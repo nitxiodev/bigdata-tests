@@ -15,4 +15,4 @@ Guessing your python binary is in `/home/myvirtualenv/bin/python` and your uncom
   shakespeare_wordcount$ PYSPARK_PYTHON=/home/myvirtualenv/bin/python SPARK_HOME=/home/spark-2.4.0-bin-hadoop2.7/ /home/spark-2.4.0-bin-hadoop2.7/bin/spark-submit spark_shakespeare.py
 ```
 
-Running the script will save in a folder (`wordcount_interview_test`) one file called `part-00000` with the number of times a given word appears in the texts.
+Running the script will save in a folder (`wordcount_interview_test`) one file called [part-00000](https://github.com/nitxiodev/bigdata-tests/blob/orbitalads/shakespeare_wordcount/wordcount_interview_test/part-00000) with the number of times a given word appears in the texts and will print on the stdout the total number of words found.
